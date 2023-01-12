@@ -1,6 +1,6 @@
 import os
 import time
-n=int(input("Enter the height of the arrows"))
+n=int(input("Enter the height of the arrows : "))
 while(1):
 	
 	for i in range(n):#arrow Pointing Toward's UPWARDS
@@ -63,17 +63,16 @@ while(1):
 		# for j in range(n-i):
 			# print(" ",end=" ")
 		# print()
-	
-	for i in range(n):								#arrow Pointing Toward's Right
+	for i in range(n):
 		if i== n-1: 
-			print((2*n)*"*", end=" ")
-			print((i+1)* "*")
+			print((2*n)*"*", end="")
+			print((i+1)* " * ")
 		else:
-			print((2*n)* " ", end =" ")
-			print((i+1)* "*")
+			print((2*n)* " ", end ="")
+			print((i+1)* " * ")
 	for j in range(n-1,0,-1):
-		print((2*n)* " ", end= " ")
-		print(j* "*")
+		print((2*n)* " ", end= "")
+		print(j* " * ")
 
 
 
